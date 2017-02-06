@@ -21,7 +21,8 @@ DerivedData
 *.ipa
 *.xcuserstate
 project.xcworkspace
-
+node_modules
+.vscode
 # Android/IntelliJ
 #
 build/
