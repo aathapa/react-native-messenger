@@ -36,6 +36,7 @@ const styles = {
         shadowOffset: {width: 0, top: 2},
         shadowOpacity: 0.1,
         elevation: 1,
-        height: 50
+        height: 50,
+        backgroundColor: '#fff'
     }
 }
