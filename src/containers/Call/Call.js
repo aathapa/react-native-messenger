@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Text,View } from 'react-native';
+import styles from './CallStyle';
+
 
 export default class Call extends Component {
     constructor(props) {
@@ -7,7 +9,7 @@ export default class Call extends Component {
     }
     render() {
         return (
-            <View style={{flex:1 ,justifyContent:'center',alignItems:'center'}}>
+            <View style={styles.callContainer}>
                 <Text>Call</Text>
             </View>
         );

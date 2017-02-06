@@ -1,5 +1,8 @@
-export default styles= {
+import { Colors } from '../../theme/';
+
+export default styles = {
     homeContainer: {
-        backgroundColor: 
+        flex: 1,
+        backgroundColor: Colors.secondaryWhiteColor
     }
 }

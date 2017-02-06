@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Text,View } from 'react-native';
+import styles from './MenuStyle';
 
 export default class Menu extends Component {
     constructor(props) {
@@ -7,7 +8,7 @@ export default class Menu extends Component {
     }
     render() {
         return (
-            <View style={{flex:1 ,justifyContent:'center',alignItems:'center'}}>
+            <View style={styles.menuContainer}>
                 <Text>Menu</Text>
             </View>
         );
