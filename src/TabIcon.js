@@ -9,7 +9,7 @@ export default class TabIcon extends Component {
         const SELECTED_ITEMS = selected? Colors.primaryColor : Colors.secondaryBlackColor
         
         return (
-            <IonIcons name={tabIcon} size={25} color={SELECTED_ITEMS} />
+            <IonIcons name={tabIcon} size={22} color={SELECTED_ITEMS} />
         );
     }
 }
