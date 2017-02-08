@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Text,View } from 'react-native';
 import styles from './HomeStyle';
-import { MyStatusBar } from '../../components/';
+import { MyStatusBar,NavBar } from '../../components/';
 
 export default class Home extends Component {
     constructor(props) {
@@ -11,6 +11,7 @@ export default class Home extends Component {
         return (
             <View style={styles.homeContainer}>
                 <MyStatusBar />
+                <NavBar />
             </View>
         );
     }
