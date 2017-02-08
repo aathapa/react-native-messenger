@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Text,View } from 'react-native';
 import styles from './GroupStyle';
+import { MyStatusBar } from '../../components/';
 
 export default class Group extends Component {
     constructor(props) {
@@ -9,7 +10,7 @@ export default class Group extends Component {
     render() {
         return (
             <View style={styles.groupContainer}>
-                <Text>Group</Text>
+                <MyStatusBar />
             </View>
         );
     }

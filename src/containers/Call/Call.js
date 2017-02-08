@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Text,View } from 'react-native';
 import styles from './CallStyle';
+import { MyStatusBar } from '../../components/';
 
 
 export default class Call extends Component {
@@ -10,7 +11,7 @@ export default class Call extends Component {
     render() {
         return (
             <View style={styles.callContainer}>
-                <Text>Call</Text>
+                <MyStatusBar />
             </View>
         );
     }
