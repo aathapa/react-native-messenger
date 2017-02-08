@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Text,View,StatusBar,Platform } from 'react-native';
-import { Colors } from '../theme';
+import { Colors } from '../../theme/';
 
 export default class MyStatusBar extends Component {
     constructor(props) {
@@ -20,6 +20,6 @@ const STATUSBAR_HEIGHT = Platform.OS == 'ios' ? 20 : 0;
 const styles = {
     statusBar: {
         height: STATUSBAR_HEIGHT,
-        backgroundColor: Colors.primaryColors
+        backgroundColor: Colors.primaryColor
     }
 }
