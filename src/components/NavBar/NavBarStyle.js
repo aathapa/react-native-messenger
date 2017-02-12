@@ -5,9 +5,9 @@ export default styles = {
         height: Metrics.Metrics.NAVBAR_HEIGHT,
         backgroundColor: Colors.secondaryColor,
         shadowColor: '#000',
-        shadowOffset: {width: 0, height: 3},
+        shadowOffset: {width: 0, height: 2},
         shadowOpacity: 0.2,
-        shadowRadius: 3,
+        shadowRadius: 2,
         elevation: 1,
     }
 }

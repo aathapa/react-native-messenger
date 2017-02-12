@@ -1,4 +1,4 @@
-export const styles = {
+const styles = {
   containerStyle: {
     borderWidth: 1,
     borderRadius: 2,
@@ -14,3 +14,4 @@ export const styles = {
     marginTop: 10
   }
 }
+export default styles;
