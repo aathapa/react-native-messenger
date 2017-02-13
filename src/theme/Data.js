@@ -29,7 +29,8 @@ const favouritelist = {
 const birthdaylist = {
     pamit: {
         images: require('../images/pamit.jpg'),
-        title: "Pamit Acharya"
+        title: "Pamit Acharya",
+        message : "Wish him a happy birthday"
     }
 }
 

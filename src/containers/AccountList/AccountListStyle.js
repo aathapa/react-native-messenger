@@ -1,32 +1,14 @@
 import { Colors,Fonts } from '../../theme/';
+
 const styles = {
-    container: {
-        padding: 10,
-        flexDirection: 'row'
+    chatSection: {
+        marginLeft: 10,
+        marginTop: 10
     },
-    imageContainer: {
-        flex:1.3
-    },
-    nameContainer: {
-        flex: 5,
-        flexDirection: 'column'
-    },
-    nameText: {   
-        fontFamily: Fonts.type.regular,
-        fontSize: Fonts.size.medium
-    },
-    messageText: {
-        fontFamily: Fonts.type.regular,
+    chatSectionText: {
+        color: Colors.secondaryBlackColor,
         fontSize: Fonts.size.mediumSmall,
-        color: Colors.secondaryBlackColor
-    },
-    time: {
-        flex: 2
-    },
-    timeText: {
-        fontFamily: Fonts.type.regular,
-        fontSize: Fonts.size.mediumSmall
+        fontWeight: "700"
     }
 }
-
 export default styles;
