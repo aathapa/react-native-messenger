@@ -1,8 +1,8 @@
 import { Platform } from 'react-native';
 
 const type = {
-    light: 'Lato-Light',
-    regular: 'Lato-Regular'
+    light: 'Roboto-Light',
+    regular: 'Roboto-Regular'
 }
 
 const size = {
