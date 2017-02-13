@@ -9,5 +9,10 @@ export default styles = {
         shadowOpacity: 0.2,
         shadowRadius: 2,
         elevation: 1,
+    },
+    icon: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center'
     }
 }
