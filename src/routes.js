@@ -13,6 +13,7 @@ export default class AppRouter extends Component {
                         key="tabbar"
                         tabBarStyle={styles.tabBarStyle}
                         tabs
+                        initial
                     >
                         <Scene key="home" tabIcon="md-home" component={Home} hideNavBar icon={TabIcon} />
                         <Scene key="call" tabIcon="md-call" component={Call} hideNavBar icon={TabIcon} />
@@ -20,7 +21,7 @@ export default class AppRouter extends Component {
                         <Scene key="groups" tabIcon="md-people" component={Group} hideNavBar icon={TabIcon} />
                         <Scene key="memu" tabIcon="md-list" component={Menu} hideNavBar icon={TabIcon} />
                     </Scene>
-                    <Scene key= "welcomescreen" component={WelcomeScreen} hideNavBar initial />
+                    <Scene key= "welcomescreen" component={WelcomeScreen} hideNavBar  />
                 </Scene>
                 
             </Router>
