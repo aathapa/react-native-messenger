@@ -7,7 +7,7 @@ const styles = {
     },
     chatSectionText: {
         color: Colors.secondaryBlackColor,
-        fontSize: Fonts.size.mediumSmall,
+        fontSize: Fonts.size.small,
         fontWeight: "700"
     }
 }
