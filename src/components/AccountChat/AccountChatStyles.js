@@ -8,7 +8,7 @@ const styles = {
         flex:1.3
     },
     nameContainer: {
-        flex: 5,
+        flex: 7,
         flexDirection: 'column'
     },
     nameText: {   
@@ -22,11 +22,17 @@ const styles = {
     },
     time: {
         flex: 2,
-        alignItems: 'flex-end'
+        alignItems: 'flex-end',
     },
     timeText: {
         fontFamily: Fonts.type.regular,
         fontSize: Fonts.size.mediumSmall
+    },
+    call: {
+        flex: 2,
+        flexDirection:'row',
+        alignItems: 'center',
+        justifyContent: 'center'
     }
 }
 
